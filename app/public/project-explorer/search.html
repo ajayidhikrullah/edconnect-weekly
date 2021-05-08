@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEARCH</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+                <a lass="nav-link" href="index.html"><h1>Project Explorer</h1></a>
+            
+                <div class="left">    
+                    <form action="" class="form-inline" name="searchForm">
+                        <input type="text" placeholder="Search Projects" class="form-control mr-sm-2">
+                            <button class="btn btn-outline-light">Search</button>
+                                <a href="search.html"></a>
+                        <!-- <a href="search.html">Projects</a> -->
+                                <a class="nav-link mr-sm-2" href="createproject.html">Submit</a>
+                    </form>
+                </div>
+        
+            <nav class="navbar">
+                <a class="nav-link " href="register.html">Sign Up</a>
+                <a class="nav-link" href="login.html">Login</a>
+            </nav>
+        </nav>
+        
+    </header>
+
+
+<main>
+    <!-- <div class="container"> -->
+        
+        
+            <section>
+                    <h2>Search Project By:</h2>
+            
+                <div class="p-3 bg-light text-dark">
+                <form action="" name="searchForm">
+                    
+                    <div class="form-row form-inline">
+                        <div class="form-group col-md-6">
+                            <label class="" for="form-label"></label>
+                            <input class="form-control form-control-lg" type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags">
+                        </div>
+
+                        <div class="form-group col-md-4">
+                            <!-- <div class="col-auto"> -->
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">Search By</div>
+                                    <!-- <label class="form-label" for="">Search By:</label> -->
+                                    <!-- <label for="" class="form-label form-control">Search By:</label> -->
+                                       
+                                    <select class="form-control-lg" name="searchType" id="">
+                                        <option value="Name">Name</option>
+                                        <option value="Abstract">Abstract</option>
+                                        <option value="Authors">Authors</option>
+                                        <option value="Tags">Tags</option>
+                                    </select>
+                                </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn-lg btn-primary">
+                                Submit
+                            </button>
+                        </div>
+                        <!-- <input value="Submit" type="submit"> -->
+                    </div>
+
+                </form>
+                </div>
+            </section>
+
+
+
+
+
+            <section>
+                <!-- <div class="container"> -->
+                    <h2>Search Result</h2>
+
+                <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Project 1</h4>
+                            <p class="card-subtitle">Author 1, Author 2</p>
+                            <ul>
+                                <li>Name: </li>
+                                <li>Description: </li>
+                                <li>Program: </li>
+                                <li>Authors: </li>
+                                <li>Tags: </li>
+                                <li>Year: 2018</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-3">
+                <div class="card" >
+                    <div class="card-body">
+                        <h4 class="card-title">Project 1</h4>
+                        <p class="card-subtitle">Author 1, Author 2</p>
+                        <ul>
+                            <li>Name: </li>
+                            <li>Description: </li>
+                            <li>Program: </li>
+                            <li>Authors: </li>
+                            <li>Tags: </li>
+                            <li>Year: 2018</li>
+                        </ul>
+                    </div>
+                
+            </section>
+    </main>
+
+
+            <Footer>
+                <div class="colum">
+                    <p>Project Explorer &COPY; 2021 . <strong>Edconnect</strong> </p>
+                </div>
+            </Footer>
+            
+    </div>
+</body>
+</html>
