@@ -10,8 +10,30 @@
 
 </head>
 
+<header>
+    <nav class="navbar navbar-dark bg-primary">
+        <a lass="nav-link" href="index.html"><h1>Project Explorer</h1></a>
+    
+        <div class="left">    
+            <form action="" class="form-inline" name="searchForm">
+                <input type="text" placeholder="Search Projects" class="form-control mr-sm-2">
+                    <button class="btn btn-outline-light">Search</button>
+                        <a href="search.html"></a>
+                <!-- <a href="search.html">Projects</a> -->
+                        <a class="nav-link mr-sm-2" href="createproject.html">Submit</a>
+            </form>
+        </div>
+
+    <nav class="navbar">
+        <a class="nav-link " href="register.html">Sign Up</a>
+        <a class="nav-link" href="login.html">Login</a>
+    </nav>
+</nav>
+</header>
 
 
+
+<!-- 
 
 <header>
     <h1>Project Explorer</h1>
@@ -24,7 +46,7 @@
      <a href="login.html">Login</a>
      <a href="register.html">Register</a>
      <a href="createproject.html">Submit</a>
- </nav>
+ </nav> -->
 
  <main>
      <section>
@@ -50,7 +72,10 @@
              <br><br>
              <label for="">Upload File: <input type="file"  name="projectFile"></label>
              <br><br>
-             <input type="submit">
+             <button type="submit" name="submit" class="btn btn-primary">
+                 <!-- <input type="submit"> -->
+                 continue
+             </button>
 
          </form>
      </section>
